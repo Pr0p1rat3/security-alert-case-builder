@@ -12,6 +12,11 @@ The MVP intentionally avoids offensive automation. It does not exploit systems, 
 - Frontend: React, TypeScript, Vite, Tailwind CSS, nginx reverse proxy.
 - Evidence: uploaded files are validated by extension, size-limited, SHA256-hashed, and stored outside the web root.
 
+# Buy me a cuban C0ff33 ^__^
+
+    BTC: bc1qtv8j0l887frldav7k8sdz8nz3n4y6shv7cvnx7
+    ETH: 0x014603d2F6B2D17AECBa2Df7ac3eeAB667bf068d
+
 ## Screenshots
 
 - Dashboard with severity and status rollups.
