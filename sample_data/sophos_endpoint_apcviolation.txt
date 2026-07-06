@@ -1,0 +1,13 @@
+source_system=Sophos Central
+alert_type=Endpoint APCViolation
+timestamp=2026-07-02T14:22:11Z
+hostname=FIN-LAPTOP-022
+username=contoso\\jane.smith
+severity=High
+rule_name=APCViolation suspicious PowerShell
+process_name=powershell.exe
+parent_process=winword.exe
+command_line=powershell.exe -NoProfile -ExecutionPolicy Bypass -EncodedCommand SQBFAFgA
+source_ip=10.20.15.44
+sha256=3b7f54a1f6b2b6ad6998f7e8c2a2d6d3d67bbf7fa69bb59bb1f79c03c9f45c87
+raw_message=Endpoint alert detected suspicious script behavior launched from Office.

@@ -1,0 +1,30 @@
+EventID=4624
+Timestamp=2026-07-02T17:01:10Z
+LogonType=3
+AuthenticationPackageName=NTLM
+TargetUserName=svc-backup
+WorkstationName=ADMIN-JUMP-01
+IpAddress=10.30.2.14
+Computer=FS-01
+LogonID=0x5f3a12
+
+EventID=4672
+Timestamp=2026-07-02T17:01:10Z
+SubjectUserName=svc-backup
+Computer=FS-01
+SubjectLogonId=0x5f3a12
+PrivilegeList=SeBackupPrivilege SeRestorePrivilege SeDebugPrivilege
+
+EventID=4648
+Timestamp=2026-07-02T17:03:22Z
+SubjectUserName=admin.user
+TargetUserName=svc-backup
+ProcessName=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+IpAddress=10.30.2.14
+
+EventID=4688
+Timestamp=2026-07-02T17:04:05Z
+NewProcessName=C:\Windows\System32\cmd.exe
+ParentProcessName=C:\Windows\System32\services.exe
+CommandLine=cmd.exe /c whoami /all
+Computer=FS-01

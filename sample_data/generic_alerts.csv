@@ -1,0 +1,3 @@
+timestamp,source_system,severity,hostname,username,source_ip,destination_ip,domain,url,event_id,signature
+2026-07-02T21:10:00Z,Firewall,Medium,VPN-GW-01,contoso\\sam.ng,198.51.100.33,10.60.4.10,admin.contoso.example,https://admin.contoso.example/login,4776,Repeated NTLM validation failures
+2026-07-02T21:12:44Z,Proxy,High,HR-WKS-018,contoso\\maria.lopez,10.70.8.44,203.0.113.90,cdn-example-download.test,http://cdn-example-download.test/file.bin,1,Suspicious download from newly registered domain

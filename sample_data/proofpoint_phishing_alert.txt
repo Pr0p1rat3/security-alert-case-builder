@@ -1,0 +1,11 @@
+Source System: Proofpoint TAP
+Timestamp: 2026-07-02T16:17:02Z
+Alert Type: Phishing email
+Sender: billing-update@example-payments.com
+Recipient: finance.manager@contoso.example
+Subject: Urgent invoice portal update
+URL: https://example-payments.com/login?case=8812#section
+Source IP: 198.51.100.80
+Message ID: <20260702161702@example-payments.com>
+Disposition: Delivered then quarantined
+Raw Message: User clicked suspicious URL before automated quarantine completed.

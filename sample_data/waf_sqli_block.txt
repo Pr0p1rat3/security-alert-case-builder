@@ -1,0 +1,13 @@
+timestamp=2026-07-02T15:04:33Z
+source_system=Fortra WAF
+action=blocked
+signature=SQL Injection UNION SELECT probe
+source_ip=203.0.113.45
+destination_ip=10.10.5.25
+country=US
+asn=AS64500
+http_method=GET
+http_path=/products?id=1%20UNION%20SELECT%20password%20FROM%20users
+status_code=403
+hostname=shop.internal.example.com
+raw_message=WAF blocked SQL injection attempt against product search endpoint.

@@ -1,0 +1,14 @@
+{
+  "source_system": "Microsoft Defender",
+  "timestamp": "2026-07-02T20:05:44Z",
+  "severity": "High",
+  "title": "Suspicious service creation",
+  "hostname": "APP-SRV-03",
+  "username": "CONTOSO\\svc-deploy",
+  "event_id": 7045,
+  "service_name": "UpdaterSvc",
+  "service_path": "C:\\Windows\\Temp\\updater.exe",
+  "source_ip": "10.50.1.90",
+  "sha256": "6ad8b2c983a2a6a36ef3dd9f5a92e1f655af3c70a3f8d43e64f8f9059fb1462d",
+  "description": "Service installation observed outside standard deployment window."
+}

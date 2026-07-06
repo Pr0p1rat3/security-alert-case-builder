@@ -1,0 +1,11 @@
+timestamp=2026-07-02T19:40:01Z
+source_system=Cisco Secure Access DNS
+client_ip=10.40.9.23
+hostname=MKT-WKS-009
+username=contoso\\riley.patel
+query_domain=beacon-sync.example-dynamic-dns.net
+resolved_ip=203.0.113.211
+category=Newly Seen Domain
+action=allowed
+user_agent=Mozilla/5.0 Windows NT 10.0
+raw_message=Repeated DNS requests observed every 60 seconds for a newly seen domain.
