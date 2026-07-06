@@ -14,10 +14,16 @@ The MVP intentionally avoids offensive automation. It does not exploit systems, 
 
 ## Screenshots
 
-Placeholders:
-
 - Dashboard with severity and status rollups.
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-52-37 " src="https://github.com/user-attachments/assets/a20fe0dc-534c-4565-8129-e3034087ef50" />
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-56-42 " src="https://github.com/user-attachments/assets/d13f1518-33e5-4279-b089-29c3e2c73b4d" />
+
 - Case detail page with Overview, Raw Alerts, Timeline, IOCs, Evidence, MITRE Mapping, Tasks, Notes, Reports, and Audit Log tabs.
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-59-13 " src="https://github.com/user-attachments/assets/7c30fd56-b6cb-4357-9920-372ed99d5c33" />
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-58-49 " src="https://github.com/user-attachments/assets/5ad234f1-7059-4f26-bca1-0afc47999a48" />
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-58-40 " src="https://github.com/user-attachments/assets/b3aa7bcd-6211-447a-915e-e0a5dadc783f" />
+<img width="2743" height="1947" alt="Screenshot 2026-07-06 at 11-58-31 " src="https://github.com/user-attachments/assets/82d0edda-c6f5-4466-89b9-da1b35f9e089" />
+
 - Generated Markdown report view.
 
 ## Local Docker Setup
@@ -145,7 +151,3 @@ The local mapping engine suggests common ATT&CK techniques from alert terms. Sug
 - Redis/RQ is scaffolded through Compose but long-running jobs are not yet offloaded.
 - OIDC/SAML/LDAP are roadmap items.
 - Evidence storage is local filesystem by default; S3-compatible storage can be added behind the evidence service.
-
-## Roadmap
-
-Future integrations include Sophos Central, Proofpoint TAP/SIEM, Microsoft Defender Advanced Hunting, Alert Logic, Fortra WAF exports, Cisco Secure Access logs, AbuseIPDB, VirusTotal, GreyNoise, CISA KEV, MISP, Jira, ServiceNow, Slack, Teams, and enterprise identity providers.
