@@ -1,0 +1,7 @@
+Alert: APCViolation
+Hostname: FIN-LAPTOP-022
+Username: contoso\jane.smith
+Source IP: 192.168.1.100
+URL: http://evil.com/payload.exe
+SHA256: 8d1f73b9e4a3b01859db7c3c588e404be1fb5de7cb6c5c0d6c4d7e82cb22b9db
+Command Line: PowerShell EncodedCommand
