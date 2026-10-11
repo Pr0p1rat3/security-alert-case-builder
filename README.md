@@ -49,7 +49,7 @@ Seeded local credentials:
 
 ```text
 admin@example.com
-ChangeMe123!
+cHAng3M3_!nPr0d!
 ```
 
 Change these before any shared deployment.

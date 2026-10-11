@@ -30,7 +30,7 @@ services:
       SACB_CORS_ORIGINS: http://localhost:8080,http://127.0.0.1:8080,http://localhost:5173,http://127.0.0.1:5173
       SACB_EVIDENCE_STORAGE_PATH: /data/evidence
       SACB_SEED_ADMIN_EMAIL: admin@example.com
-      SACB_SEED_ADMIN_PASSWORD: ChangeMe123!
+      SACB_SEED_ADMIN_PASSWORD: cHAng3M3_!nPr0d!
     volumes:
       - evidence-data:/data/evidence
     depends_on:

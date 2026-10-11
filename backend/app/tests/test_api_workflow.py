@@ -8,7 +8,7 @@ os.environ["SACB_DATABASE_URL"] = f"sqlite+pysqlite:///{Path(tempfile.mkdtemp())
 os.environ["SACB_EVIDENCE_STORAGE_PATH"] = str(Path(tempfile.mkdtemp()) / "evidence")
 os.environ["SACB_JWT_SECRET"] = "test-secret"
 os.environ["SACB_SEED_ADMIN_EMAIL"] = "admin@example.com"
-os.environ["SACB_SEED_ADMIN_PASSWORD"] = "ChangeMe123!"
+os.environ["SACB_SEED_ADMIN_PASSWORD"] = "cHAng3M3_!nPr0d!"
 
 from fastapi.testclient import TestClient  # noqa: E402
 
@@ -19,7 +19,7 @@ SAMPLE = ROOT / "sample_data"
 
 
 def auth_headers(
-    client: TestClient, email: str = "admin@example.com", password: str = "ChangeMe123!"
+    client: TestClient, email: str = "admin@example.com", password: str = "cHAng3M3_!nPr0d!"
 ) -> dict[str, str]:
     response = client.post("/auth/login", json={"email": email, "password": password})
     assert response.status_code == 200, response.text
@@ -91,13 +91,13 @@ def test_rbac_blocks_viewer_from_mutating_cases() -> None:
             json={
                 "email": "viewer@example.com",
                 "display_name": "Viewer",
-                "password": "ViewerPass123!",
+                "password": "vI3w3r_!nPr0d!",
                 "role": "Viewer",
             },
             headers=admin_headers,
         )
         assert response.status_code in {200, 409}
-        viewer_headers = auth_headers(client, "viewer@example.com", "ViewerPass123!")
+        viewer_headers = auth_headers(client, "viewer@example.com", "vI3w3r_!nPr0d!")
         denied = client.post(
             "/cases",
             json={"title": "Viewer attempt", "description": "Should fail"},

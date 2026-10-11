@@ -4,7 +4,7 @@ import type { User } from "../types/models";
 
 export function LoginPage({ onLogin }: { onLogin: (user: User) => void }) {
   const [email, setEmail] = useState("admin@example.com");
-  const [password, setPassword] = useState("ChangeMe123!");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   async function submit(event: FormEvent) {

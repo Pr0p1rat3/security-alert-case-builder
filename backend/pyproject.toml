@@ -7,7 +7,6 @@ dependencies = [
   "alembic>=1.13.2",
   "email-validator>=2.2.0",
   "fastapi>=0.111.0",
-  "passlib[bcrypt]>=1.7.4",
   "bcrypt>=4.0.1,<5.0",
   "psycopg[binary]>=3.2.1",
   "pydantic-settings>=2.4.0",

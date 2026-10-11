@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     max_upload_bytes: int = 10 * 1024 * 1024
     seed_demo_data: bool = True
     seed_admin_email: str = "admin@example.com"
-    seed_admin_password: str = "ChangeMe123!"
+    seed_admin_password: str = "cHAng3M3_!nPr0d!"
 
     @field_validator("cors_origins", mode="before")
     @classmethod
